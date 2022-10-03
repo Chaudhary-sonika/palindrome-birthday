@@ -1,0 +1,40 @@
+main{
+    background-color:#fb923c;
+    width: 80vw;
+    height: 25vw;
+    text-align: center;
+    margin: auto;
+}
+p{
+    padding: 1rem;
+    text-align: center;
+    font-size: large;
+}
+button{
+     display:grid;
+     margin: auto;
+}
+input{
+    margin: 1rem;
+}
+h2{
+    padding-top: 3rem;
+}
+.font{
+    text-align: center;
+}
+.foot-head{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: larger;
+    color: black;
+}
+body{
+    background-color: bisque;
+}
+button:hover{
+    background-color:bisque ;
+}
+input:hover{
+    background-color:bisque ; 
+}
