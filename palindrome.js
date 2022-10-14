@@ -1,3 +1,7 @@
+var dateInputRef = document.querySelector("#date-input");
+var showBtnRef = document.querySelector("#ans-btn");
+var resultRef = document.querySelector("#output");
+
 function reverseStr(str) {
     var listOfChars = str.split("");
     var reverseListOfChars = listOfChars.reverse();
@@ -115,9 +119,7 @@ function getAllDateFormats(date) {
     }
     return [ctr, nextDate];
   }
-var dateInputRef = document.querySelector("#bday-input");
-var showBtnRef = document.querySelector("#show-btn");
-var resultRef = document.querySelector("#result");
+
 
 function clickHandler(e){
     var bdayStr = dateInputRef.value; 
